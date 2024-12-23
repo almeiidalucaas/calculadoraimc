@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
               )
                   .show()
 
-
             } else {
                 val peso = pesoStr.toFloat()
                 val altura = alturaStr.toFloat()
@@ -43,13 +42,7 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra(KEY_RESULT_IMC, resultado)
                 startActivity(intent)
 
-                // cores do aplicativo
-                // edittext background + icone
-                // gradiente + icone + titulo + descricao
-
             }
-
         }
-
     }
 }
